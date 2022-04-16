@@ -1,3 +1,4 @@
+
 GIT/GITHUB
 git config -h --> listado de configuraciones
 
@@ -7,3 +8,15 @@ cd .git 	--> ingresar al archivo .git
 git add <file>--> sube archivo al stage
 
 git commit -m "first commit" --> subir archivos al repositorio local
+
+git rm <file> 	-->eliminar archivo
+
+git restore <file> --> restaurar archivo
+
+git branch -> rama actual
+
+git checkout -b <nombreRama> --> cambiar de rama
+
+git log --> Historial
+
+cat <file>  ---> muestra contenido del archivo
