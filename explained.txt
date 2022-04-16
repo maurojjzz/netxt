@@ -1,5 +1,25 @@
+C#
+-----
+DECLARACION IMPLICITA DE VARIABLES:
+    var edadPersona = 27 -->  se le dice al compilador que asigna al tiempo de ejecucion el tipo que corresponda a esa variable. En este caso edadPersona se le asignara el tipo int ya que se le asigno a la variable un valor entero (27)
+
+CONVERSION EXPLICITA(casting)
+    double tempe= 34.5;
+    int tempeMadrid;
+
+    temperatura = (int) temperatura;  ---> basicamente dice que al valor double que es tempe lo pase a entero y se lo asigne a tempeMadrid. (desecha la parte decimal, NO REDONDEA)
+
+CONVERSION TEXTO A NUMERO
+    int.parse()
+    double.parse()
+ej: int num1= int.parse(Console.ReadLine());
+    
+
+
+
 
 GIT/GITHUB
+------------
 git config -h --> listado de configuraciones
 
 git init 	--> inicializar repositorio nuevo (Vacio)
@@ -22,3 +42,9 @@ git log --> Historial
 cat <file>  ---> muestra contenido del archivo
 
 git push -u origin <rama> --> subir a github el archivo
+
+
+
+
+
+
