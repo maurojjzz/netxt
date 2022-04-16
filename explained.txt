@@ -1,0 +1,9 @@
+GIT/GITHUB
+git config -h --> listado de configuraciones
+
+git init 	--> inicializar repositorio nuevo (Vacio)
+ls -a 		--> mostrar todos los archivos incluso los ocultos
+cd .git 	--> ingresar al archivo .git
+git add <file>--> sube archivo al stage
+
+git commit -m "first commit" --> subir archivos al repositorio local
