@@ -20,3 +20,5 @@ git checkout -b <nombreRama> --> cambiar de rama
 git log --> Historial
 
 cat <file>  ---> muestra contenido del archivo
+
+git push -u origin <rama> --> subir a github el archivo
